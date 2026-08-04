@@ -49,3 +49,21 @@ footer {
   margin-top: auto;
   flex-shrink: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .card__title {
+    font-size: 12px;
+  }
+  .card__description {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__title {
+    font-size: 10px;
+  }
+  .card__description {
+    display: none;
+  }
+}
